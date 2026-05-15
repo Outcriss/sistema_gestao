@@ -12,7 +12,7 @@ public class ConnectionFactory {
     private static final String USUARIO = "root";
 
 
-    private static final String SENHA = "sua_senha_aqui";
+    private static final String SENHA = "1234";
 
     public static Connection conectar() {
         try {
