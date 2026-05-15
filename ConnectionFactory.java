@@ -8,10 +8,10 @@ public class ConnectionFactory {
 
     private static final String URL = "jdbc:mysql://localhost:3306/sistema_projetos";
 
-    // O usuário padrão do MySQL
+
     private static final String USUARIO = "root";
 
-    // Aqui você vai colocar a senha que escolher na hora de instalar o MySQL
+
     private static final String SENHA = "sua_senha_aqui";
 
     public static Connection conectar() {
