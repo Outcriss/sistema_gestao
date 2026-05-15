@@ -4,8 +4,8 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
 
-    // O endereço do seu banco de dados na sua própria máquina (localhost)
-    // "sistema_projetos" será o nome do banco que vamos criar no MySQL
+
+
     private static final String URL = "jdbc:mysql://localhost:3306/sistema_projetos";
 
     // O usuário padrão do MySQL

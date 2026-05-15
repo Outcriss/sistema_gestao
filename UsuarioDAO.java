@@ -12,7 +12,7 @@ public class UsuarioDAO {
 
     // Método que recebe um Objeto Java e o transforma em uma linha no SQL
     public void cadastrarUsuario(Usuario usuario) {
-        // A query SQL com pontos de interrogação (?) para evitar SQL Injection (segurança)
+
         String sql = "INSERT INTO usuario (nome_completo, cpf, email, cargo, login, senha, perfil) VALUES (?, ?, ?, ?, ?, ?, ?)";
 
         try (PreparedStatement stmt = conexao.prepareStatement(sql)) {
